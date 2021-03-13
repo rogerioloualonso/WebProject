@@ -1,0 +1,149 @@
+/*Limpar formatações padrões*/
+
+* {
+	margin:0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "trebuchet MS" , Helvetica, sans-serif;
+	background-color: #e6e6e6;
+}
+
+/*    ***********   Header     **************    */
+
+#header{
+	background-color: #f7b600;
+	text-align: center;
+	padding: 15px;
+
+
+}
+
+#title, #menu{
+	padding: 10px;
+
+}
+
+h1{
+	color:#4e4e4e;
+	font-size: 2.5em;
+}
+
+#blog{
+	color: white;
+	background-color: #ccc;
+	border-radius: 10px;
+}
+
+.link-menu{
+	text-decoration: none;
+	color:white;
+	padding: 8px 12px;
+	font-weight: bold;
+}
+
+.link-menu:hover{
+	background-color: white;
+	color:#f7b600;
+}
+
+/*  ************   Postagens ***************    */
+
+#container{
+	width: 920px;
+	margin: 10px auto;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#postagens{
+	width: 660px;
+	float:left;
+}
+
+img{
+	border-radius: 5px;
+}
+
+h2{
+	color: #f7b600;
+}
+
+.text{
+	text-align: justify;
+}
+
+
+.post{
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.data{
+	font-size: 0.8em;
+	display: block;
+	margin-bottom: 10px;
+
+}
+
+.link-leia:link, .link-leia:visited {
+	color: #f7b600;
+	text-decoration: none;
+}
+
+.link-leia:hover{
+	text-decoration: underline;
+}
+
+
+
+/*   ******** Barra lateral ************  */
+
+#barra{
+
+	width:240px;
+	float:right;
+
+}
+
+.post-lat{
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+
+}
+
+h3{
+	background-color: #ccc;
+	color:#565656;
+	border-radius: 5px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.text-post-rec{
+	font-size: 0.8em;
+}
+
+
+hr{
+	margin: 5px 0;
+}
+
+
+
+
+/*   ******** Rodapé ************  */
+
+#rodape{
+	background-color: #ccc;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+}
+
