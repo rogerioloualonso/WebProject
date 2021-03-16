@@ -58,3 +58,29 @@ h2{
 p{
 	text-align: justify;
 }
+
+/*   ******** Voltar ************  */
+
+#voltar{
+	background-color:white;
+	position:fixed;
+	border-radius:20px;
+	margin:20px;
+	border:3px solid black;
+}
+
+#voltar p{
+	font-size:4em;
+	display: inline;
+	font-weight: bold;
+}
+
+#voltar img{
+	display: inline;
+	padding: 5px;
+}
+
+#voltar a{
+	text-decoration: none;
+	color:black;
+}

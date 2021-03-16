@@ -1,0 +1,129 @@
+/**********Geral**********/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-size: 1.2em;
+    background-color: #1C1C1C;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/**********Layout**********/
+
+#allpage{
+    margin-top: 20px;
+}
+
+#fixo{
+    position: fixed;
+    float: left;
+    background-color:white;
+    border-radius:50px;
+    margin-left: 10px;
+}
+
+#container{
+    width: 55%;
+    margin: 0 0 0 38%;
+}
+
+
+.projeto{
+    border: 1px solid green;
+    margin: 5px;
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+
+.conteudo{
+    display: inline;
+}
+
+/**********Título e logo**********/
+
+
+#titulo p{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#logo{
+    float:left;
+    display: inline;
+    margin-top:20px;
+}
+
+#titulo{
+    float:right;
+    display: inline;
+    margin:100px 0;
+    margin-right: 15px;
+}
+
+
+/**********projetos**********/
+
+
+.projeto img{
+    border-radius: 10px;
+    width: 400px;
+    margin: 35px 0 0 115px;
+    padding:0;
+}
+
+.zoom {
+	overflow: hidden;
+}
+
+.zoom {
+	max-width: 100%;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.zoom:hover {
+	-moz-transform: scale(1.6);
+	-webkit-transform: scale(1.6);
+	transform: scale(1.6);
+}
+
+.conteudo h5, h2{
+    padding-left: 200px;
+}
+
+
+
+/**********Links**********/
+
+.link{
+    position:relative;
+    left:650px;
+    top:-185px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    background-color:#1C1C1C;
+    font-size:1em;
+    padding:120px 0 120px 0;
+    font-size: 2em;
+    border-radius:10px;
+}
+
+a:hover{
+    background-color:white;
+    color:black;
+    border:1px solid black;
+}
+
