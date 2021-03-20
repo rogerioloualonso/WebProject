@@ -24,7 +24,6 @@ body{
 #fixo{
     position: fixed;
     float: left;
-    background-color:#363636;
     margin-left: 10px;
 }
 
@@ -122,7 +121,11 @@ body{
 }
 
 .conteudo h5, h2{
-    padding-left: 200px;
+    text-align: center;
+}
+
+.conteudo h2{
+    letter-spacing: 1px;
 }
 
 
