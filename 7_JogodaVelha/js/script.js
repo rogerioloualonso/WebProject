@@ -30,11 +30,11 @@ function main(id, l, c){
 
         if(pos[l][c] == 0){
             if(jogada % 2 == 0){
-                document.getElementById(id).src="../imagens/circulo-azul-1.png"
+                document.getElementById(id).src="./imagens/circulo-azul-1.png"
         
                 pos[l][c] = 1
             }else{
-                document.getElementById(id).src="../imagens/x-vermelho-1.jpg"
+                document.getElementById(id).src="./imagens/x-vermelho-1.jpg"
             
                 pos[l][c] = 2
             }
@@ -63,15 +63,15 @@ function newGame(){
 }
 
 function troca(){
-    document.getElementById("img00").src="../imagens/velha1.jpg"
-    document.getElementById("img01").src="../imagens/velha1.jpg"
-    document.getElementById("img02").src="../imagens/velha1.jpg"
-    document.getElementById("img10").src="../imagens/velha1.jpg"
-    document.getElementById("img11").src="../imagens/velha1.jpg"
-    document.getElementById("img12").src="../imagens/velha1.jpg"
-    document.getElementById("img20").src="../imagens/velha1.jpg"
-    document.getElementById("img21").src="../imagens/velha1.jpg"
-    document.getElementById("img22").src="../imagens/velha1.jpg"
+    document.getElementById("img00").src="./imagens/velha1.jpg"
+    document.getElementById("img01").src="./imagens/velha1.jpg"
+    document.getElementById("img02").src="./imagens/velha1.jpg"
+    document.getElementById("img10").src="./imagens/velha1.jpg"
+    document.getElementById("img11").src="./imagens/velha1.jpg"
+    document.getElementById("img12").src="./imagens/velha1.jpg"
+    document.getElementById("img20").src="./imagens/velha1.jpg"
+    document.getElementById("img21").src="./imagens/velha1.jpg"
+    document.getElementById("img22").src="./imagens/velha1.jpg"
 }
 
 function ganhar(){
