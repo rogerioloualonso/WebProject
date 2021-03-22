@@ -23,6 +23,7 @@ var pos = [[0, 0, 0],
            [0, 0, 0],
            [0, 0, 0]]
 
+/*teste*/
 
 function main(id, l, c){
 
