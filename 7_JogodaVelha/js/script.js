@@ -1,18 +1,20 @@
-/*
-var player1 
-var palayer2
+
+
 
 document.addEventListener("DOMContentLoaded", function(){
    // após o DOM ter sido carregado,
    // atribui o elemento à variável
-   player1 = prompt("Nome do player1:")
+
+   var player1 = prompt("Nome do player1:")
    var aux1 = document.getElementById("nome-azul").innerHTML = player1.substr(0, 10)
 
-   player2 = prompt("Nome do player2:")
+   var player2 = prompt("Nome do player2:")
    var aux2 = document.getElementById("nome-vermelho").innerHTML = player2.substr(0, 10)
 });
 
-*/
+
+
+
 var jogada = 0
 var pontosAzul = 0
 var pontosVermelho = 0
@@ -140,7 +142,7 @@ function ganhar(){
     if(pos[0][2] == 2){
         if(pos[1][1] == 2){
             if(pos[2][0] == 2){
-                vitoriaAzul++
+                vitoriaVermelho++
             }
         }
     }
