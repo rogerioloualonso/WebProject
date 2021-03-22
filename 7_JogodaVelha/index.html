@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Jogo da velha</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="imagens/icon.jpg">
+        <script src="js/script.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </head>
+
+    <body>
+
+        <div id="container">
+
+            <div id="voltar">
+			
+                <a href="../index.html"><img width=80px src="../imagens/logo.png"></a>
+    
+            </div>
+
+            <div id="header">
+                <div id="instrucao">
+                    <h5>Instruções:</h5>
+                    <ul>
+                        <li>- O primeiro a jogar é o Player 1;</li>
+                        <li>- Player 1 = "X" e o Player 2 = "O";</li>
+                    </ul>
+                </div>
+
+                <div id="titulo">
+                    <h1>Jogo da velha</h1>
+                </div>
+
+                <div id="botao">
+                    <input type="button" id="botao-reiniciar" onclick="newGame(), troca()" value="New Game">
+                    <input type="button" id="botao-zerar" onclick="zerar()" value="Zerar">
+                </div>
+                
+            </div>
+
+                <div id="placar-azul">
+                    <div id="titulo-placar-azul"><p id="nome-azul">Player 1</p></div>
+                    <div id="pontos-azul">
+                        <input type="text" id="pontuacao-azul" value=0 readonly="true"/>
+                    </div>
+                </div>
+
+                <div id="jogo">
+                    <div id="m00">
+                        <img id="img00" onclick="main('img00', 0, 0)" src="imagens/velha1.jpg">
+                    </div>
+
+                    <div id="m01">
+                        <img id="img01" onclick="main('img01', 0, 1)" src="imagens/velha1.jpg">
+                    </div>
+
+                    <div id="m02">
+                        <img id="img02" onclick="main('img02', 0, 2)" src="imagens/velha1.jpg">
+                    </div>
+
+                    <div id="m10">
+                        <img id="img10" onclick="main('img10', 1, 0)" src="imagens/velha1.jpg">
+                    </div>
+
+                    <div id="m11">
+                        <img id="img11" onclick="main('img11', 1, 1)" src="imagens/velha1.jpg">
+                    </div>
+
+                    <div id="m12">
+                        <img id="img12" onclick="main('img12', 1, 2)" src="imagens/velha1.jpg">
+                    </div>
+
+                    <div id="m20">
+                        <img id="img20" onclick="main('img20', 2, 0 )" src="imagens/velha1.jpg">
+                    </div>
+
+                    <div id="m21">
+                        <img id="img21" onclick="main('img21', 2, 1)" src="imagens/velha1.jpg">
+                    </div>
+
+                    <div id="m22">
+                        <img id="img22" onclick="main('img22', 2, 2)" src="imagens/velha1.jpg">
+                    </div>
+                    
+                </div>
+
+                <div id="placar-vermelho">
+                    <div id="titulo-placar-vermelho"><p id="nome-vermelho">Player 2</p></div>
+                    <div id="pontos-vermelho">
+                        <input type="text" value="0" id="pontuacao-vermelho" readonly="true"/>
+                    </div>
+                </div>
+
+                <div id="rodape">
+                    <div id="text-rodape"><h6>&copy Todos os direitos reservados</h6></div>
+                </div>
+        </div>
+
+    </body>
+
+
+</html>
