@@ -1,5 +1,5 @@
 
-
+/***********************Iniciando os nomes dos players ******************************/
 
 document.addEventListener("DOMContentLoaded", function(){
    // após o DOM ter sido carregado,
@@ -23,7 +23,10 @@ var pos = [[0, 0, 0],
            [0, 0, 0],
            [0, 0, 0]]
 
-/*teste*/
+
+
+/*********************** Controla as jogadas ******************************/
+
 
 function main(id, l, c){
 
@@ -50,6 +53,8 @@ function main(id, l, c){
 
 }
 
+/***********************Reinicia o jogo*******************************/
+
 function newGame(){
 
     jogada = 0;
@@ -63,6 +68,7 @@ function newGame(){
     troca()
 }
 
+
 function troca(){
     document.getElementById("img00").src="./imagens/velha1.jpg"
     document.getElementById("img01").src="./imagens/velha1.jpg"
@@ -74,6 +80,11 @@ function troca(){
     document.getElementById("img21").src="./imagens/velha1.jpg"
     document.getElementById("img22").src="./imagens/velha1.jpg"
 }
+
+
+
+
+/*********************** Verifica se ganhou ******************************/
 
 function ganhar(){
 
@@ -154,7 +165,7 @@ function ganhar(){
         vitoriaAzul = 0
         newGame()
         document.getElementById("pontuacao-azul").value=pontosAzul.toFixed(0)
-        swal('AZUL GANHOU!')
+        swal("AZUL GANHOU!!!")
     }
 
     if(vitoriaVermelho > 0){
@@ -162,11 +173,16 @@ function ganhar(){
         vitoriaVermelho = 0
         newGame()
         document.getElementById("pontuacao-vermelho").value=pontosVermelho.toFixed(0)
-        swal('VERMELHO GANHOU!')
+        swal('VERMELHO GANHOU!!!')
     }
    
 
 }
+
+
+
+
+/*********************** Zera o placar ******************************/
 
 function zerar(){
     document.getElementById("pontuacao-azul").value=0

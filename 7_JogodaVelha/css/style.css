@@ -1,3 +1,5 @@
+
+/*****Definições gerais*****/
 *{
     padding:0;
     margin:0;
@@ -9,12 +11,20 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-
 #container{
     width:90%;
-    min-width: 1200px;
+    min-width: 1150px;
+    max-width:1500px;
     margin:20px auto;
 }
+
+
+
+
+
+
+/*****Header*****/
+
 
 #header{
     height:100px;
@@ -48,6 +58,11 @@ body{
     font-size: .7em;
     padding-left: 20px;
 }
+
+
+
+
+/*****Botão*****/
 
 #botao{
     float:right;
@@ -85,12 +100,11 @@ body{
 }
 
 
-#placar-azul{
-    float: left;
-    width:25%;
-    margin-top: 20px;
-    height:480px;
-}
+
+/*****Jogo*****/
+
+
+
 
 #jogo{
     float:left;
@@ -101,22 +115,6 @@ body{
     height:464px;
     background-color: black;
     box-shadow: 0px 0px 30px white;
-}
-
-#placar-vermelho{
-    float:right;
-    width:25%;
-    margin-top: 20px;
-    height:480px;
-}
-
-#rodape{
-    clear:both;
-}
-
-#text-rodape{
-    text-align:center;
-    color:#2F4F4F;
 }
 
 #jogo img{
@@ -142,6 +140,29 @@ body{
 }
 
 
+
+
+
+
+/*****Placar*****/
+
+
+#placar-azul{
+    float: left;
+    width:25%;
+    margin-top: 20px;
+    height:480px;
+}
+
+
+#placar-vermelho{
+    float:right;
+    width:25%;
+    margin-top: 20px;
+    height:480px;
+}
+
+
 #titulo-placar-azul{
     text-align:center;
     font-weight: bold;
@@ -155,7 +176,6 @@ body{
     color:red;
     font-size: 2em;
 }
-
 
 #pontos-azul{
     height:400px;
@@ -191,7 +211,27 @@ body{
     margin-top:20px;
 }
 
-/*   ******** Voltar ************  */
+
+
+
+
+/*****Rodapé*****/
+
+#rodape{
+    clear:both;
+}
+
+#text-rodape{
+    text-align:center;
+    color:#2F4F4F;
+}
+
+
+
+
+
+
+/********* Voltar *************/
 
 #voltar{
 	background-color:white;
