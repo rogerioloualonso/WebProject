@@ -1,6 +1,6 @@
-# Projeto_Web
-Projetos do curso de desenvolvimento web da Udemy.
+# Projetos Web da Udemy
+- 👀 Descrição: Projetos do curso de desenvolvimento web da Udemy
+- 😎 Curiosidade: Curso completo de FrontEnd com +100 horas
+- ⌛ Desenvolvendo: Finalizando o curso, mais projestos saindo...
   
-  
-  OBS: A cada novo projeto o nível de complexidade  do mesmo aumenta.
-![image](https://user-images.githubusercontent.com/69876702/110713010-f4390600-81df-11eb-9457-36898ff3d44b.png)
+![image](https://user-images.githubusercontent.com/69876702/131588821-2508fb46-3fb6-4a7d-a759-d49bb2cf2907.png)
